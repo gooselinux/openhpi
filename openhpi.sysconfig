@@ -1,0 +1,7 @@
+# config file
+#
+#CONFIG=/etc/openhpi/openhpid.conf
+#
+# other options passed to openhpid, see openhpid(8) for details
+#
+#OPTIONS=

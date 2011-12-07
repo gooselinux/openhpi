@@ -1,0 +1,13 @@
+diff --git a/include/SaHpi.h b/include/SaHpi.h
+index 8dda8ce..590dce6 100644
+--- a/include/SaHpi.h
++++ b/include/SaHpi.h
+@@ -2560,7 +2560,7 @@ typedef struct {
+ ** Additional state flags may be defined in future versions of this specification.
+ */
+ typedef SaHpiUint32T SaHpiFumiLogicalBankStateFlagsT;
+-#define SAHPI_FUMI_NO_MAIN_PERSISTENT_COPY  (SaHpiFumiLogicalBankStatesT)0x00000001
++#define SAHPI_FUMI_NO_MAIN_PERSISTENT_COPY  (SaHpiFumiLogicalBankStateFlagsT)0x00000001
+ 
+ 
+ /*
